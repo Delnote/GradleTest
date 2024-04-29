@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="base">
+        <classes>
+            <class name="tests.MainPageTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="listeners.TestStartFinishTestNGListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+</suite>
