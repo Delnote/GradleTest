@@ -17,7 +17,7 @@ import static org.testng.ITestResult.SKIP;
 import static org.testng.ITestResult.SUCCESS;
 
 @Component
-public class TestStartFinishTestNGListener implements IInvokedMethodListener, IAnnotationTransformer, ISuiteListener, ITestListener {
+public class TestStartFinishTestNGListener implements IInvokedMethodListener, ISuiteListener, ITestListener {
 
     private static final Logger log = LoggerFactory.getLogger(TestStartFinishTestNGListener.class);
 
